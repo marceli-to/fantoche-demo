@@ -4,7 +4,7 @@
   <div v-if="isFetched" class="is-loaded">
     
     <page-header>
-      <h1>Gönner</h1>
+      <h1>Sponsoren</h1>
       <router-link :to="{ name: 'backer-create' }" class="btn-add has-icon">
         <plus-icon size="16"></plus-icon>
         <span>Hinzufügen</span>

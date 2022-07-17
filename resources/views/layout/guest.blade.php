@@ -3,7 +3,7 @@
 <main role="main" class="site">
   <div>
     <section class="mx-auto">
-      @include('partials.logo')
+      <h1>FANTOCHE</h1>
       @yield('content')
     </section>
   </div>

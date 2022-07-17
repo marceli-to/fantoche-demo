@@ -44,7 +44,7 @@ body.auth {
     }
 
     h1 {
-      @include font-size($fs-md);
+      @include font-size($fs-lg);
     }
   
     .form-group {

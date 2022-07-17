@@ -4,12 +4,12 @@
       <h1>Über uns</h1>
     </page-header>
     <div class="content content--wide cards">
-      <div class="card">
+      <!-- <div class="card">
         <router-link :to="{name: 'forum'}">
-          <h2>Das Forum</h2>
-          <p>Verwaltung des Forums</p>
+          <h2>Team</h2>
+          <p>Verwaltung des Teams</p>
         </router-link>
-      </div>
+      </div> -->
       <div class="card">
         <router-link :to="{name: 'boards'}">
           <h2>Vorstand</h2>
@@ -18,14 +18,14 @@
       </div>
       <div class="card">
         <router-link :to="{name: 'backers'}">
-          <h2>Gönner</h2>
-          <p>Verwaltung der Gönner</p>
+          <h2>Sponsoren</h2>
+          <p>Verwaltung der Sponsoren</p>
         </router-link>
       </div>
       <div class="card">
         <router-link :to="{name: 'partners'}">
-          <h2>Netzwerk</h2>
-          <p>Verwaltung der Netzwerkpartner</p>
+          <h2>Preisstifter</h2>
+          <p>Verwaltung der Preisstifter</p>
         </router-link>
       </div>
     </div>

@@ -16,7 +16,7 @@
       <figure class="grid-item grid-item__hero">
         <img :src="getImageSrc(data.hero, 'cache')" height="300" width="300" v-if="data.hero">
       </figure>
-      <page-header>
+      <!-- <page-header>
         <h2>Veranstaltungen</h2>
         <a href="javascript:;" @click="$refs.eventSelector.show();" class="btn-add has-icon">
           <plus-icon size="16"></plus-icon>
@@ -43,9 +43,9 @@
             <p v-html="item.event.abstract"></p>
           </figure>
         </div>
-      </draggable>
+      </draggable> -->
       <page-header>
-        <h2>Teaser</h2>
+        <h2>News</h2>
         <a href="javascript:;" @click="$refs.teaserSelector.show();" class="btn-add has-icon">
           <plus-icon size="16"></plus-icon>
           <span>Hinzufügen</span>

@@ -12,8 +12,8 @@
       </div>
       <div class="card">
         <router-link :to="{name: 'teasers'}">
-          <h2>Teaser</h2>
-          <p>Verwaltung der Teaser</p>
+          <h2>News</h2>
+          <p>Verwaltung der News</p>
         </router-link>
       </div>
     </div>

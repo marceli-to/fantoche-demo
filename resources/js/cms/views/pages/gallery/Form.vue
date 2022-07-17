@@ -17,18 +17,18 @@
           <label>Titel</label>
           <input type="text" v-model="data.title">
         </div>
-        <div class="form-row">
+        <!-- <div class="form-row">
           <label>Subtitel</label>
           <input type="text" v-model="data.subtitle">
-        </div>
-        <div class="form-row">
+        </div> -->
+        <!-- <div class="form-row">
           <label>Subtitel 2. Zeile</label>
           <textarea v-model="data.text"></textarea>
-        </div>
-        <div class="form-row">
+        </div> -->
+        <!-- <div class="form-row">
           <label>Mouseovertext (Lightbox Navigation)</label>
           <input type="text" v-model="data.hover_text">
-        </div>
+        </div> -->
         <div class="form-row">
           <label>Credits</label>
           <textarea v-model="data.credits"></textarea>

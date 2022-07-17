@@ -166,8 +166,8 @@ export default {
   computed: {
     title() {
       return this.$props.type == "edit" 
-        ? "Teaser bearbeiten" 
-        : "Teaser hinzufügen";
+        ? "News bearbeiten" 
+        : "News hinzufügen";
     }
   }
 };

@@ -166,8 +166,8 @@ export default {
   computed: {
     title() {
       return this.$props.type == "edit" 
-        ? "Gönner bearbeiten" 
-        : "Gönner hinzufügen";
+        ? "Sponsoren bearbeiten" 
+        : "Sponsoren hinzufügen";
     }
   }
 };

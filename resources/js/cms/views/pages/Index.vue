@@ -23,25 +23,25 @@
         </router-link>
       </div>
 
-      <div class="card">
+      <!-- <div class="card">
         <router-link :to="{name: 'activities'}">
           <h2>Debatten</h2>
           <p>Verwaltung der Aktivitäten</p>
         </router-link>
-      </div>
+      </div> -->
+      
       <div class="card">
         <router-link :to="{name: 'about'}">
-          <h2>Über uns / Mitgliedschaft</h2>
+          <h2>Über uns</h2>
           <p>Verwaltung von Über uns</p>
         </router-link>
       </div>
-      <div></div>
-      <div class="card">
+      <!-- <div class="card">
         <router-link :to="{name: 'page'}">
           <h2>Spezialseiten</h2>
           <p>«Winterthur im Bild» und «Unser Bahnhof Winterthur»</p>
         </router-link>
-      </div>
+      </div> -->
       <div class="card">
         <router-link :to="{name: 'galleries'}">
           <h2>Mediengalerien</h2>
